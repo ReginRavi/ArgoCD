@@ -2,6 +2,8 @@
 
 This project aims to build a comprehensive observability platform using GitOps principles with Argo CD.
 
+![alt text](Architecture.png)
+
 ## Components
 
 - **Argo CD**: Declarative, GitOps continuous delivery tool for Kubernetes.
