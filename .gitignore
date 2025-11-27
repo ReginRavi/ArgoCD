@@ -1,0 +1,58 @@
+# Secrets and sensitive data
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets/
+*.secret
+*.env
+.env.local
+.env.*.local
+
+# Kubernetes secrets and configs
+kubeconfig
+*.kubeconfig
+*-secret.yaml
+*-secrets.yaml
+secret-*.yaml
+
+# ArgoCD specific
+argocd-initial-admin-secret.yaml
+argocd-secret.yaml
+
+# Helm
+charts/*/charts/
+*.tgz
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Build outputs
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Local development
+.local/
+tmp/
+temp/
+.cache/
+
+# Backup files
+*.bak
+*.backup
+*-backup.yaml
+
+# Generated files
+rendered/
+output/
+generated/
